@@ -222,11 +222,9 @@ void Game::play_game()
 				move_info();
 				first_check = true;
 				std::cout << std::endl;
-
 			}
-
-
 		}
+		
 		while (second_level == true)
 		{
 			if (p1->is_alive() == false)
@@ -493,8 +491,6 @@ void Game::play_game()
 				move_info();
 			}
 		}
-
-
 	}
 
 	//end display
